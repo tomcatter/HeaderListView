@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.headerlistview.MainActivity" >
+
+    <item
+        android:id="@+id/item_movies"
+        android:showAsAction="ifRoom|withText"
+        android:title="Movies"
+        android:visible="true"/>
+    <item
+        android:id="@+id/item_music"
+        android:showAsAction="ifRoom|withText"
+        android:title="Music"
+        android:visible="true"/>
+    <item
+        android:id="@+id/item_comedy"
+        android:showAsAction="ifRoom|withText"
+        android:title="Comedy"
+        android:visible="true"/>
+
+</menu>
